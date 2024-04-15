@@ -1,0 +1,15 @@
+[package]
+name = "reflex"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+path = "src/main.rs"
+name = "reflex"
+
+[dependencies]
+egui = "*"
+eframe = "0.16"
+webview = "*"
+clipboard = "*"
