@@ -1,0 +1,11 @@
+[package]
+name = "pry"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+path = "src/main.rs"
+name = "pry"
+
+[dependencies]
+lopdf = "*"
